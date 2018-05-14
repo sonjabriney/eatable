@@ -1,0 +1,559 @@
+body {
+	background-color: #d98cb3;
+}
+
+/*LANDING PAGE*/ 
+
+.tablecloth {
+	height: 800px;
+	width: 800px;
+	transform: rotate(45deg);
+	position: center;
+	background-color: #ecc6d9;
+	margin-left: 290px;
+}
+
+.plate {
+	height: 200px;
+	width: 200px;
+}
+
+.websiteplate {
+	bottom: 800px;
+	left: 700px;
+	position: relative;
+	z-index: 0;
+}
+
+.menuplate {
+	position: relative;
+	bottom: 840px;
+	left: 175px;
+	z-index: 0;
+}
+
+.photoplate {
+	position: relative;
+	bottom: 1150px;
+	left: 935px;
+	z-index: 0;
+}
+
+.aboutplate {
+	position: relative;
+	left: 600px;
+	bottom: 1160px;
+	z-index: 0;
+}
+
+#websitetag {
+	position: relative;
+	bottom: 95px;
+	left: -165px;
+	font-family: 'Rakkas', cursive;
+	color: #ffffb3;
+	font-size: 36px;
+	z-index: 1;
+}
+
+#menutag {
+	position: relative;
+	font-family: 'Rakkas', cursive;
+	color: #ffffb3;
+	font-size: 36px;
+	left: -155px;
+	bottom: 95px;
+	z-index: 1;
+}
+
+#phototag {
+	position: relative;
+	font-family: 'Rakkas', cursive;
+	color: #ffffb3;
+	font-size: 36px;
+	bottom: 90px;
+	left: -155px;
+	z-index: 3;
+
+}
+
+#abouttag {
+	position: relative;
+	font-family: 'Rakkas', cursive;
+	color: #ffffb3;
+	font-size: 36px;
+	left: -145px;
+	bottom: 120px;
+	z-index: 1;
+}
+
+.fork {
+	position: relative;
+	height: 100px;
+	width: 50px;
+}
+
+#websitefork {
+	position: relative;
+	transform: rotate(180deg);
+	bottom: 950px;
+	left: 550px;
+}
+
+#menufork {
+	position: relative;
+	transform: rotate(90deg);
+	bottom: 875px;
+	left: 360px;
+}
+
+#photofork {
+	position: relative;
+	transform: rotate(-90deg);
+	bottom: 1440px;
+	left: 990px;
+}
+
+#aboutfork {
+	position: relative;
+	bottom: 1340px;
+	left: 805px;
+}
+
+.greeting {
+	position: relative;
+	font-family: 'New Rocker', cursive;
+	font-size: 72px;
+	color: #ffffb3;
+	bottom: 1925px;
+	left: 545px;
+}
+
+.greeting:hover {
+	color: #d98cb3;
+}
+
+.subhead {
+	position: relative;
+	font-family: 'New Rocker', cursive;
+	font-size: 48px;
+	color: #ffffb3;
+	left: 570px;
+	bottom: 1925px;
+}
+
+.subhead:hover {
+	color: #d98cb3;
+}
+
+.screen {
+	position: fixed;
+}
+
+.tagline {
+	position: relative;
+	font-family: 'New Rocker', cursive;
+	font-size: 30px;
+	z-index: 1;
+	bottom: 1830px;
+	left: 165px;
+	text-align: center;
+	color: #d98cb3;
+}
+
+.tagline:hover {
+	color: #ffffb3;
+}
+/*about page*/
+
+.aboutscreen {
+	position: fixed;
+}
+
+#aboutpagefork {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	z-index: 3;
+	top: 20px;
+	left: 80px;
+}
+
+.content {
+	position: absolute;
+	font-size: 42px;
+	font-family: 'New Rocker', cursive;
+	z-index: 3;
+	color: #ffffb3;
+	padding-left: 50px;
+	width: 400px;
+	padding-top: 140px;
+}
+
+.additionalcontent {
+	position: absolute;
+	font-size: 42px;
+	font-family: 'New Rocker', cursive;
+	z-index: 3;
+	color: #ffffb3;
+	padding-left: 700px;
+	width: 400px;
+	padding-top: 140px;
+}
+
+/*home icon*/ 
+.homeplate {
+	width: 75px; 
+	height: 75px;
+	padding-left: 25px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	z-index: 0;
+}
+
+.homefork {
+	width: 25px;
+	height: 50px;
+	z-index: 1;
+	left: 20px;
+	top: -70px;
+	position: relative;
+	padding-left: 25px;
+}
+
+.hometag {
+	font-size: 16px;
+	font-family: 'New Rocker', cursive; 
+	position: relative;
+	top: -70px;
+	left: 20px;
+	padding-left: 25px;
+}
+
+.big {
+	font-size: 100px;
+	font-family: 'New Rocker', cursive; 
+	position: relative;
+	padding-left: 50px;
+	top: 0px;
+}
+
+/*photo page*/ 
+.photoinfo {
+	font-size: 100px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: 0px;
+	left: 575px;
+	z-index: 2;
+}
+
+.photosub {
+	font-size: 30px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: 25px;
+	left: 50px;
+	z-index: 2;
+	text-align: center;
+	color: #ffffb3;
+}
+
+#photoplate {
+	position: relative;
+	top: -160px;
+	left: 5px;
+	z-index: 0;
+}
+
+#photohome {
+	position: relative;
+	top: -235px;
+	left: 25px;
+}
+
+img {
+	position: relative;
+	top: -25px;
+	left: 150px;
+	z-index: 1;
+	height: 275px;
+	width: 275px;
+	padding-bottom: 25px;
+}
+
+#photopgfork {
+	width: 45px;
+	height: 60px;
+	position: relative;
+	top: -155px;
+	left: 50px;
+}
+
+
+.photorow {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 25px;
+}
+
+.photocolumn {
+	flex: 25%;
+	max-width: 25%;
+	max-height: 25%;
+	padding: 25px;
+}
+
+.photocolumn img {
+	margin-top: 25px;
+	vertical-align: middle;
+}
+
+/*website page*/
+.webrow {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.webcolumn {
+	flex: 25%;
+	max-height: 25%;
+	max-width: 25%;
+	padding: 25px;
+	top: -500px;
+	padding-left: 425px;
+}
+
+.webcolumn2 {
+	flex: 25%;
+	max-height: 25%;
+	max-width: 25%;
+	padding: 25px;
+	top: -500px;
+	padding-left: 0px;
+}
+
+.photocolumn img {
+	margin-top: 25px;
+	vertical-align: middle;
+}
+
+.webinfo {
+	font-size: 100px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: 0px;
+	left: 525px;
+	z-index: 2;
+}
+
+.websub {
+	font-size: 30px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: 25px;
+	left: 40px;
+	z-index: 2;
+	text-align: center;
+	color: #ffffb3;
+}
+
+#webfork {
+	width: 25px;
+	height: 50px;
+	z-index: 1;
+	left: 60px;
+	top: -150px;
+	position: relative;
+	padding-left: 25px;
+}
+
+a {
+	z-index: 5;
+}
+
+#dimeslink {
+	height: 275px;
+	width: 275px;
+	position: relative;
+	top: -25px;
+	left: 150px;
+}
+
+/*MENU PAGE*/
+
+#menupagefork {
+	width: 45px;
+	height: 60px;
+	position: relative;
+	top: 15px;
+	left: 75px;
+}
+
+.menutitle {
+	font-size: 100px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	text-align: center;
+	top: 0px;
+	z-index: 2;
+}
+
+.menusub {
+	font-size: 30px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: 25px;
+	left: 40px;
+	z-index: 2;
+	text-align: center;
+	color: #ffffb3;
+}
+
+.menupageplate {
+	width: 75px; 
+	height: 75px;
+	padding-left: 25px;
+	position: relative;
+	top: -70px;
+	left: 0px;
+	z-index: 0;
+}
+
+#menuhometag {
+	top: -145px;
+	left: 20px;
+}
+
+#menuhomefork {
+	top: -135px;
+	left: 75px;
+	height: 60px;
+	width: 45px;
+}
+
+#crennmenujpg {
+	height: 450px;
+	width: 250px;
+	position: relative;
+	left: 140px;
+}
+
+#crennheadshot {
+	height: 450px;
+	width: 250px;
+	position: relative;
+	left: 140px;
+	top: -15px;
+}
+
+.crennreviewhead {
+	font-size: 26px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: -990px;
+	left: 450px;
+	z-index: 2;
+	text-align: left;
+	color: #ffffb3;
+}
+
+.crennreviewsub {
+	font-size: 20px;
+	font-family: 'New Rocker', cursive;
+	position: relative;
+	top: -980px;
+	left: 450px;
+	z-index: 2;
+	text-align: left;
+	color: #ffffb3;
+}
+
+#crenntext {
+	font-size: 16px;
+	position: relative;
+	font-family: 'Space Mono', monospace;
+	color: black;
+	top: -1115px;
+	left: 400px;
+}
+
+#crenntext2 {
+	font-size: 16px;
+	position: relative;
+	font-family: 'Space Mono', monospace;
+	color: black;
+	top: -1225px;
+	left: 90px;
+}
+/*grid system*/ 
+/*.grid-base{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+
+.grid-base .col{
+	height:3000px;
+}
+
+.col{
+	border:1px dashed rgba(255,0,0,0.6);
+	display: inline-block;
+	float:left;
+	padding:20px;
+}
+
+.hero{
+	height:100vh;
+}
+
+.col-1{
+	width:8.33%;
+}
+
+.col-2{
+	width:16.66%;
+}
+
+.col-3{
+	width:25%;
+}
+
+.col-4{
+	width:33.33%;
+}
+.col-5{
+	width:41.66%;
+}
+.col-6{
+	width:50%;
+}
+
+.col-7{
+	width:58.33%;
+}
+
+.col-8{
+	width:66.66%;
+}
+
+.col-9{
+	width:75%;
+}
+
+.col-10{
+	width:83.33%;
+}
+
+.col-11{
+	width:91.66%;
+}
+
+.col-12{
+	width:100%;
+}
